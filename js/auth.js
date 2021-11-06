@@ -7,10 +7,6 @@ const inputPassword = document.getElementById('password');
 const buttonOut = document.querySelector('.button-out');
 const userName = document.querySelector('.user-name');
 
-console.log(buttonOut);
-console.log(userName);
-
-
 const login = (user) => {
     modalAuth.style.display = 'none';
     buttonAuth.style.display = 'none';
